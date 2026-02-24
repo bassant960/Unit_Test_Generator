@@ -1,4 +1,4 @@
-# Unit_Test_Generator
+# Unit Test Generator
 CLI tool that automatically generates high-quality unit tests for a single Python function using an LLM API (Groq + Llama model).
 The tool:
 - accepts Python source code
@@ -29,6 +29,33 @@ source venv/bin/activate    # Linux / macOS
 
 ## 3. Install dependencies
 pip install -r requirements.txt
+Error Messages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SituationOutputNo function or more than one functionError: This tool only generates unit tests for functions.Invalid Python syntaxError: Invalid Python syntax.No input providedError: No source code provided.File not readable / missing keyAppropriate error message and exit
 ## Setup
 1. Create a `.env` file in the project root:
 
