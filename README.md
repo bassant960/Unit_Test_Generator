@@ -18,16 +18,16 @@ The tool:
 - `python-dotenv` for loading API keys
 - Internet connection (to call LLM API)
 ## Installation
-# 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/bassant960/Unit_Test_Generator.git
 cd Unit_Test_Generator
 
-# 2. Create virtual environment 
+## 2. Create virtual environment 
 python -m venv venv
 source venv/bin/activate    # Linux / macOS
  or on Windows: venv\Scripts\activate
 
-# 3. Install dependencies
+## 3. Install dependencies
 pip install -r requirements.txt
 ## Setup
 1. Create a `.env` file in the project root:
